@@ -1,0 +1,76 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(../Font/montserrat/Montserrat-ExtraLight.ttf);
+}
+
+
+.BandeauNoir {
+    background-color: #000;
+    color:#fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Montserrat;
+    height: 25px;
+}
+
+.gauche {
+    display: flex; 
+    gap:3px;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+.logoNG {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    height: 70px;
+}
+
+.icones {
+    flex: 2;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    height: 20px;
+}
+
+.categories {
+    display: flex;
+    justify-content:center;
+    padding: 10px;
+    align-items: center;
+    gap: 30px;
+    font-family: Montserrat;
+}
+
+h1 {
+    font-family: Montserrat;
+    width: 80%; 
+    margin: 0 auto;
+}
+
+h6,
+h2 {
+    font-family: Helvetica;
+    width: 80%; 
+    margin: 0 auto;
+}
+
+p { 
+    font-family: Georgia;
+    text-align: justify;
+    padding: 20px;
+    font-size: 20px;
+    line-height: 30px;
+    width: 80%; 
+    margin: 0 auto;
+}
+
+
